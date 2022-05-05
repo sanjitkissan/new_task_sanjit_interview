@@ -1,20 +1,61 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: aqua;
+    background-color:bisque;
+}
+
+.nav{
+    display:inline-block;
+    justify-content: end;
+    background-color: black;
+  
+}
+.comment-div{
+    float: right;
+    margin: 20px;
+}
+.input-tag{
+    background-color: rgba(68, 195, 211, 0.955);
+    border: 2px solid red;
+    border-radius: 10px;
+    display: inline-block;
+    justify-items: start;
+    padding: 20px;
+    
+}
+.submit-tag{
+    display: flex;
+    align-items: flex-start;
 }
 #lisiOne{
+    margin-top: 10px;
+    padding: 8px;
     list-style: none;
-    width: 50%;
-    margin-top: 30px;
+    background-color: rgb(0, 208, 255);
+    border: 1px ssolid rgb(244, 187, 187);
+    border-radius: 5px;
 }
-#formOne{
-    width: 50%;
+#comment{
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px;
+}
+#date{
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px;
+}
+#select{
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px;
 }
 #dateTwo{
-    width: 50%;
+    border-radius: 10px;
 }
 #commentli{
-    width: 50%;
-    background-color: red;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 1px ssolid rgb(244, 187, 187);
+    border-radius: 5px;
 }
